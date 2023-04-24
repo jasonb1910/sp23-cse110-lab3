@@ -1,7 +1,7 @@
 ---
 name: My Issue template
 about: Practice on GitHub Issues, HTML and CSS
-title: ''
+title: 'Lab 3'
 labels: CSS custom, documentation, Introduction to Agile with GitHub
 assignees: jasonb1910
 
