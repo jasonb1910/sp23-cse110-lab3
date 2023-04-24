@@ -6,17 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="meeting-logo.png">
-  </head>
+    <link rel="stylesheet" type="text/css" href="index_style.css" />
+</head>
   <body>
     
     <header>
-        <h1>Education Plan Meeting</h1>
-        <h2>Topic: Repeats</h2>
-        <div>Date: 04/16/2023</div>
-        <img 
-        src="Computer-Classes-for-Kids.jpg" 
-        alt="Meeting Poster"
-        width="500">
+        <h1>Education Study Plan Meeting</h1>
+    <img src="Computer-Classes-for-Kids.jpg" alt="Meeting Poster" width="1000" class="center">
+    <div class="section-list"><strong>Section List</strong>
         <nav>
             <ul>
                 <li><a href="#Meeting-Attendance">Meeting Attendance</a></li>
@@ -25,6 +22,7 @@
                 <li><a href="#Discussion">Discussion</a></li>
             </ul>
         </nav>
+        </div>
     </header>
 
     <main>
@@ -84,7 +82,7 @@
             <p>We all want to help ALL our students.  We don't want anyone feeling left out, like they don't belong, like they can't do it, or like their questions aren't being answered.  But, especially as you are beginning to teach computing, it can be hard to manage helping students and making the observations and reflections to ensure all students are getting what they need.</p>
             <p>We should create a template that we can use each day you have a lab time.</p>
             <details>
-                <summary>Tracking Template</summary>
+                <summary><strong>Tracking Template</strong></summary>
                <form>
                     <ul>
                 <li><label>Instructor:</label>
@@ -120,9 +118,12 @@
 
         <section>
             <h2 id="Summary"><b>Summary</b></h2>
-            <video controls width="500">
+            <video controls width="800">
             <source src="getting-loopy.mp4" type="video/mp4">
             </video>
+            <figure>
+                <audio controls src="repeat-loop.mp3"></audio>
+            </figure>
             <ul>
             <li>For younger students, simple looping activities such as creating patterns using shapes or colors can be introduced. As they progress, they can be taught more complex loops such as the while loop and the for loop.</li>
             <li>Teaching looping can also be made more engaging and interactive by using visual programming languages such as Scratch or Blockly, which allow students to drag and drop blocks of code to create loops and other programming constructs.</li>
@@ -136,31 +137,31 @@
                 As a teacher you need many examples of where we see things <b>"repeated"</b> or <b>"looped"</b> in the real world.<br>
                 Share an idea below of a real world example of things that repeat.
             </p>
-            <form>
+            <div class="discussion-form">
+            <div class="enter-name"><form>
                 <input type="text" value="Enter your name" />
-            </form>
+            </form></div>
               <br>
                 <textarea rows="4" cols="50">Type your response here...</textarea><br>
-                <button>Submit</button>
-        </section>
+                <button class="button">Submit</button>
+            </div>
+            </section>
             <hr>
         </main>
         <footer>
-              <span><b>Resources</b></span>
-            <p>
-                <b><i>Video:</i></b>
-            </p>
+         
+              <h2 id="resources">Resources</h2>
             <video controls width="500">
                 <source src="repeat-loop-video.mp4"
                         type="video/mp4">
             </video>
-            <p>
-                <b><i>Audio:</i></b>
-            </p>
-            <figure>
-                <audio controls src="repeat-loop.mp3"></audio>
-            </figure>
-              
+            <section id = "pictures">
+            <h3 class="galerie">Gallery:</h4>
+            
+            <div class="pic1"><img src="nestedrepeatblock.jpg" alt="nested-repeat-block" width="500" class="galerieImg"></div>
+            <div class="pic2"><img src="nestedrepeatuntil.jpg" alt="nested-repeat-until" width="500" class="galerieImg"></div>
+            <div class="pic3"><img src="findstringblock.jpg" alt="string-block" width="500" class="galerieImg"></div>
+        </section>
         </footer>
   </body>
 </html>
